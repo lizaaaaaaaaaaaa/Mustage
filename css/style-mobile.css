@@ -41,6 +41,10 @@
         display: inline;
     }
 
+    .menu {
+        width: 51px;
+    }
+
     .intro {
         background-image: url("../assets/images/intro/background-S.jpg");
     }
@@ -74,7 +78,7 @@
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 430px) {
     .header__btn-accent {
         display: none;
     }

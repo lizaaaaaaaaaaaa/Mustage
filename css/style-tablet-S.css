@@ -103,7 +103,7 @@
     }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 660px) {
     .intro__advantages {
         flex-direction: column;
         padding: 50px 18px;
