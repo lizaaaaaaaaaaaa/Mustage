@@ -1,0 +1,129 @@
+@media screen and (max-width: 900px) {
+    body {
+        font-size: 20px;
+    }
+
+    .offers__text {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        font-size: 32px;
+    }
+
+    .header__main {
+        gap: 40px 0;
+    }
+
+    .nav__list {
+        gap: 40px 0;
+    }
+
+    .nav__link {
+        font-size: 18px;
+    }
+
+    .header__btn {
+        display: inline;
+    }
+
+    .header__btn-accent {
+        display: none;
+    }
+
+    .intro {
+        background-image: url("../assets/images/intro/background-M.jpg");
+        min-height: auto;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    .intro__inner {
+        padding-top: 174px;
+    }
+
+    .intro__descr {
+        gap: 30px 0;
+    }
+
+    .intro__advantages {
+        margin: 50px 0 75px;
+    }
+
+    .no-delay {
+        background-image: url("../assets/images/delay/background-M.jpg");
+    }
+
+    .no-delay__text {
+        font-size: 40px;
+    }
+
+    .offers__list {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        gap: 30px;
+    }
+
+    .offers__item {
+        max-width: 590px;
+        justify-items: center;
+        margin: 0 auto;
+    }
+
+    .offers__item:nth-child(1) {
+        order: 0;
+    }
+
+    .offers__item:nth-child(2) {
+        order: 3;
+    }
+
+    .offers__item:nth-child(3) {
+        order: 1;
+    }
+
+    .offers__item:nth-child(4) {
+        order: 4;
+    }
+
+    .offers__item:nth-child(5) {
+        order: 2;
+    }
+
+    .offers__item:nth-child(6) {
+        order: 5;
+    }
+
+    .offers__btn {
+        margin: 50px auto 150px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .intro__advantages {
+        flex-direction: column;
+        padding: 50px 18px;
+        gap: 30px 0;
+    }
+
+    .intro__advantages>li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .intro__advantages>li:nth-child(2) {
+        padding: 30px 0;
+        border-left: 0;
+        border-right: 0;
+        border-top: 1px solid var(--white-color);
+        border-bottom: 1px solid var(--white-color);
+    }
+
+    .intro__title {
+        padding-bottom: 10px;
+    }
+}
