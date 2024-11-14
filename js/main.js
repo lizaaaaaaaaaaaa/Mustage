@@ -125,7 +125,7 @@ uaLang.onclick = () => {
 ruLang.onclick = () => {
   itemsToTranslate.forEach((item) => {
     const keyToTranslate = item.getAttribute("data-translate");
-    item.innerHTML = langSettings[keyToTranslate].ru;
+    item.innerText = langSettings[keyToTranslate].ru;
   });
 };
 
