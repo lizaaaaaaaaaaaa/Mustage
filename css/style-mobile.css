@@ -73,3 +73,9 @@
         margin: 50px auto 74px;
     }
 }
+
+@media screen and (max-width: 420px) {
+    .header__btn-accent {
+        display: none;
+    }
+}
